@@ -26,6 +26,3 @@ Route::apiResource('register', UserController::class);
 Route::apiResource('login', AuthController::class);
 
 Route::apiResource('mentors', MentorController::class)->middleware(['auth:sanctum', 'admin']);
-
-
-
